@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geld Stores</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/11ee44ef58.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <script defer src="scrpt.js"></script>
+
+  <body>
+    <div class="sidebar container">
+      <div class="cart-title">
+        <div class="y-carts"><p>Your carts</p></div>
+        <div class="cancel">X</div>
+      </div>
+
+      <div class="cart-items"></div>
+      <div class="cart-total">Total:</div>
+      <button class="checkout">checkout</button>
+    </div>
+    <header>
+      <div class="top_brand">
+        <div class="store-name">
+          <img src="./geld.PNG" alt="" id="glo" />
+        </div>
+        <div class="logins">
+          <div class="Account">
+            <i class="fa-solid fa-user"></i>
+            <div class="Account1">
+              <p>sign in</p>
+              <p style="font-size: 15px; text-transform: capitalize">Account</p>
+            </div>
+          </div>
+          <div>
+            <i class="fa-solid fa-cart-shopping" id="cart-button"></i>
+          </div>
+        </div>
+      </div>
+      <div class="navigations">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Categories</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="searchbar">
+            <input type="text" name="" id="" placeholder="search for an item" />
+            <button type="submit">Submit</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="main">
+      <h1>Our Products</h1>
+    </div>
+    <div class="product-menue">
+      <div class="products-menu spaceOut-Items">
+        <h2 class="categoryName">Men's Clothing</h2>
+        <div class="products-menu-men" id="products"></div>
+
+        <h2 class="categoryName">Women's Clothing</h2>
+        <div class="products-menu-women" id="products"></div>
+
+        <h2 class="categoryName">Jewellery</h2>
+        <div class="products-menu-jewelery" id="products"></div>
+
+        <h2 class="categoryName">Electronics</h2>
+        <div class="products-menu-electronics" id="products"></div>
+      </div>
+    </div>
+  </body>
+</html>
